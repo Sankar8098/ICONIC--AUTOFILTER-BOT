@@ -1,0 +1,9 @@
+services:
+  - name: web
+    type: web
+    env: python
+    buildCommand: python3 bot.py
+    healthCheckPath: /health
+    github: https://github.com/Jeronmathew44/NARUTO-AUTO-FILTER-1
+    branch: main /IDE
+      deployKey: YOUR_DEPLOY_KEY
