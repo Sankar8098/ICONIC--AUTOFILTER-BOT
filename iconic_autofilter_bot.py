@@ -26,7 +26,7 @@ def private_message(update: Update, context: CallbackContext) -> None:
 
 def main() -> None:
     # Create the Updater and pass it your bot's token
-    updater = Updater("YOUR_TELEGRAM_BOT_TOKEN")
+    updater = Updater("6668839691:AAE-uUmSpfSz1LQYbENoGUr4nQo7vRncJCA")
     
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
